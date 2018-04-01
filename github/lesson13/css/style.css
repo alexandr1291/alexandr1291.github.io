@@ -1,0 +1,39 @@
+* {
+  font-size: 11px;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+body {
+  margin-right: 100px;
+}
+.form {
+  border: 2px solid grey;
+  display: inline-block;
+  width: 290px;
+  height: 335px;
+  padding-left: 30px;
+  padding-top: 35px;
+  margin-top: 90px;
+  margin-left: 115px;
+}
+  
+.form label {
+  margin: 12px auto;
+}
+.form label, input {
+  display: block;
+}
+.form input {
+  width: 260px;
+  height: 30px;
+
+}
+.btn {
+  width: 260px;
+  height: 44px;
+  background-color: #01c3c3;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
+}  
