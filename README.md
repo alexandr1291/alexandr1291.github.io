@@ -4,3 +4,4 @@
 [Урок 13](https://alexandr1291.github.io/github/lesson13/ "Моя готовая домашка")
 [Урок 16](https://alexandr1291.github.io/github/lesson16/ "Моя готовая домашка")
 [Урок 17](https://alexandr1291.github.io/github/lesson17/ "Моя готовая домашка")
+[Модуль 5. Практика 3](https://alexandr1291.github.io/github/practice3modul5/ "Моя готовая домашка")
