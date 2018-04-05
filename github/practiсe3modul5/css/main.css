@@ -30,7 +30,8 @@ section {
 }
 button:focus,
 input:focus,
-a:focus {
+a:focus,
+textarea:focus {
   outline: none;
 }
 .button {
@@ -115,6 +116,7 @@ a:focus {
   display: block;
   width: 100%;
   border: 1px solid #dddddd;
+  border-radius: 5px;
   padding: 1.5rem;
   margin: 2rem 0;
 }
@@ -175,6 +177,100 @@ a:focus {
     text-align: center;
     padding-bottom: 3rem;
   }
+}
+/* Оформление секции с преимуществами */
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNova-bold', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-family: 'ProximaNova-bold', sans-serif;
+}
+.features-block p {
+  font-size: 1.4rem;
+  display: inline-block;
+  width: 80%;
+}
+.features-img {
+  margin-bottom: 3rem;
+  height: 8rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  background: url(../img/features/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+  left: 0;
+}
+.next {
+  background: url(../img/features/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+  right: 0;
+}
+/* Оформление модальных окон */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  color: #ffffff;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova-bold', sans-serif;
 }
 @media (max-width: 767px) {
   .main {
